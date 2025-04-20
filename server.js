@@ -15,4 +15,7 @@ app.get('/', (req, res) => {
 // Start server
 app.listen(PORT, () => {
   console.log(`Server is listening on port ${PORT}`);
+  console.log("Hello, World!");
+  console.log("This is a simple Express server.");
+  
 });
